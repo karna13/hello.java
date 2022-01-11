@@ -29,10 +29,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
         -name: maven version
-        run: mvn --version
+        run: mvn -version
         -name: docker
         run: docker -V
-        -name: java verson
+        -name: java version
         run: java --version
         -name: tomcat versison
         run:versiion.sh
